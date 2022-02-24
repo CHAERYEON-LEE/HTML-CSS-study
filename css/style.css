@@ -1,0 +1,314 @@
+.profile{
+    width: 300px; 
+    display: block; 
+    margin: 0 auto;
+}
+.title{
+    font-size: 30px; 
+    text-align: center;
+}
+.sub-title{
+    font-size: 20px; 
+    text-align: center;
+}
+.sub-title-highlight{
+    color: darkorange; 
+    font-weight: 900;
+}
+.text{
+    text-align: center;
+    font-size: 14px; 
+}
+.box {
+    width: 500px;
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 40px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px;
+    
+}
+
+
+.container {
+    width: 800px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: aqua;
+}
+
+.left-box {
+    width: 20%;
+    height: 400px;
+    background: coral;
+/*    float: left;*/
+    display: inline-block;
+}
+
+.right {
+    width: 80%;
+    height: 400px;
+    background: blue;
+/*    float: right;*/
+    display: inline-block;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: grey;
+/*    clear: both;*/
+}
+
+.wrap {
+    width: 700px;
+    height: 150px;
+}
+
+.review-profile {
+    width: 80%;       
+}
+
+.profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+
+
+
+
+.wrap-left {
+    width: 80%;
+    float: left
+}
+
+.wrap-right {
+    float: right;
+    width: 20%;    
+}
+
+.image-box {
+    width: 150px;
+}
+
+.review-profile-text {
+    text-align: left;
+    display: inline-block
+}
+
+.review-profile-name {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.review-profile-time {
+    font-size: 12px;
+    color: grey;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.review-content-title {
+    font-weight: 900;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.review-content-text {
+    font-size: 13px;
+    color: darkslategrey;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+.nav-menu li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 10px;
+    }
+
+.nav-menu a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    text-align: center;
+    margin-bottom: 1px;
+    
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.main-contents {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.main-btn {
+    background: red;
+    color: yellow;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.sub-background2 {
+    width: 90%;
+    max-width: 600px;
+    height: 180px;
+    text-align: center;
+    background: lightgrey;
+    padding-top: 1px;
+    position: relative;
+    top: -30px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.sub-content-text {
+    font-size: 14px;
+    padding: 0 30px;
+}
+
+.sub-title-text {
+    margin-top: 30px;
+}
+
+.sub-background {
+    width: 90%;
+    max-width: 600px;
+    height: 180px;
+    text-align: center;
+    background: lightgrey;
+    padding-top: 1px;
+    position: relative;
+    top: -30px;
+    margin: 0 auto;
+}
+
+.text-input {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.wrap-container {
+    width: 400px;
+    height: 480px;
+    background: white;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+
+
+
+
+
+
+.message{
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.contact-us-title {
+    margin-bottom: 25px; 
+}
+
+.input-name {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+
+
+.contact-us-sub-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.input-email {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.send-button {
+    width: 130px;
+    height: 35px;
+    background-color:lightcoral;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.checkbox-subscribe {
+    display: inline-block;
+    background: grey;
+    border: none;
+}
+
+.checkbox-form {
+    display: inline-block;
+    width: 225px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.wrap-wrap-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.name-box {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.check-send-box {
+    display: flex;
+    justify-content: space-between;
+}
