@@ -311,4 +311,119 @@
 .check-send-box {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.table-wrap {
+    width: 800px;
+    height: 400px;
+    background-color: cadetblue;
+}
+
+.sony-table {
+    background-color: white;
+}
+
+
+
+.sony-table-content {
+    border-color: none;
+    border: none;
+    padding: 0 20px;
+}
+
+.sony-product {
+    width: 100px;
+    padding-right: 10px;
+}
+
+.sony-table-row {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sony-product-name {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 900;
+    font-size: 16px;
+}
+.sony-product-name span{
+    font-size: 14px;
+    color: cadetblue;
+    font-weight: 600;
+}
+
+.sony-table-thead {
+    color: cadetblue;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.sony-product-amount {
+    color: cadetblue;
+    text-align: right;
+}
+
+.sony-product-price {
+    color: cadetblue;
+    text-align: right;
+}
+
+.sony-product-total {
+    color: darkslateblue;
+    font-weight: 700;
+    text-align: right;
+}
+
+.sony-product-total-price {
+    font-size: 20px;
+    color: darkslateblue;
+    font-weight: 800;
+    text-align: right
+}
+
+.cart-title {
+    font-weight: 500;
+    color: darkslategrey;
+}
+
+.table-wrap-wrap {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sony-choose-button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkslateblue;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.sony-select-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
