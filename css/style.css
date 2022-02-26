@@ -490,6 +490,7 @@ td {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .숙제4-content {
