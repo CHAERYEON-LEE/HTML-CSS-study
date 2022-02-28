@@ -495,11 +495,15 @@ td {
 
 .숙제4-content {
     width: 25%;
+    background-color: aquamarine;
 }
 
 @media screen and (max-width:1200px){
     .숙제4-content{
         width: 50%;
+    }
+    .숙제4-content:nth-child(2n){
+        background-color: bisque;
     }
 }
 @media screen and (max-width:576px){
