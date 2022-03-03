@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+html{
+    margin: 0;
+    background-color: #f7f9fc;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+button.btn-blue{
+    width: 120px;
+    background-color:  #6fbaf8;
+    border: none;
+}
+
+.font-color-blue{
+    color: #6fbaf8;
+}
+
+.profile-width-80{
+    width: 80%;
+}
+
+.profile-center{
+    margin: 0 auto;
+}
+
+div.profile-wrap{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+div.border-start{
+    height: 80%;
+}
+
+.fs-7{
+    font-size: 14px;
+}
