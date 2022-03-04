@@ -1,0 +1,75 @@
+$파란배경 : slateblue; 
+$기본폰트사이즈 : 20px;
+
+ul{
+    width: 500px;
+    height: 200px;
+    list-style: none;
+    li{
+        font-size: $기본폰트사이즈;
+        padding: 20px;
+        border: 1px solid rgba(193, 201, 214, 0.7);
+    }
+}
+.active:hover{
+    background-color: $파란배경;
+}
+
+
+
+
+@mixin alert-box-deco($a, $b){
+    width: 90vw;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: $a;
+    color: $b;
+}
+.alert-box-green{
+    @include alert-box-deco(rgba(193, 232, 195,0.7),#1d4d20);
+}
+
+.alert-box-blue{
+    @include alert-box-deco(rgba(131, 190, 222,0.7),#334752);
+}
+
+.alert-box-yello{
+    @include alert-box-deco(rgba(240, 222, 65,0.7),#524d25);
+}
+
+
+
+@mixin box-deco(){
+    background-color: rgba($color: #334752, $alpha: 0.5);
+    border: 1px solid rgba($color: #393d40, $alpha: 0.8); 
+    padding: 20px;  
+    text-align: center; 
+}
+
+@mixin flex(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin wd($구멍){
+    width: $구멍;
+}
+
+.row{
+    @include box-deco();
+    @include flex();
+}
+
+.col-6{
+    @include wd(50%);
+}
+
+.col-4{
+    @include wd(33.33%);
+}
+
+.col-3{
+    @include wd(25%);
+}

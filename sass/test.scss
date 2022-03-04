@@ -1,0 +1,85 @@
+// nesting 문법
+.main-bg h4{
+    font-size: 16px;
+}
+.main-bg button{
+    color: red;
+}
+
+.main-bg{
+    h4{
+        font-size: 16px;
+    }
+    button{
+        color: red;
+    }
+}
+
+
+//변수 사용법
+$메인칼라 : #2a4cb2;
+$서브칼라 : #eeeeee;
+$기본사이즈 : 16px;
+
+.background { 
+    background-color: $메인칼라;
+    font-size: ($기본사이즈 - 2px);
+}
+
+.box{
+    color: $서브칼라;
+    font-size: $기본사이즈 + 2px;
+}
+
+
+// @extend 문법 
+%btn {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+.btn-green{
+    @extend %btn;
+    color: green;
+}
+
+
+//숙제
+%box{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.box-color-red{
+    @extend %box;
+    background: red;
+}
+.box-color-green{
+    @extend %box;
+    background: green;
+}
+.box-color-blue{
+    @extend %box;
+    background: blue;
+}
+
+//mixin 문법, $구멍 여러개 뚫기 가능, 좌측 문자 파라미터 지정시에는 #{$구멍} 이라고 입력해줘야함
+@mixin 폰트스타일($구멍){
+    font-size: $구멍;
+    letter-spacing: -1px;
+}
+
+h2{
+    @include 폰트스타일(40px)
+}
+h3{
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+h3{
+    font-size: 10px;
+    letter-spacing: -1px;
+}
+
