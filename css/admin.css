@@ -20,6 +20,10 @@ body a{
     color: #f0f0f0;
 }
 
+body a:hover{
+    color: #f0dcfa;
+}
+
 .float-clear{
     clear: both;
 }
