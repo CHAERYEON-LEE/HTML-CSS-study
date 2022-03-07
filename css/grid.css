@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+div{
+    box-sizing: border-box;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.grid-container div{
+    border: 1px solid black;
+}
+
+.grid-nav{
+    grid-area: 헤더;
+}
+
+.grid-sidebar{
+    grid-area: 왼쪽사이드;
+}
+
+.grid-sidebar2{
+    grid-area: 오른쪽사이드;
+}
+
+.grid-container{
+    grid-template-areas: "헤더 헤더 헤더 헤더"
+                         "왼쪽사이드 오른쪽사이드 오른쪽사이드 오른쪽사이드"
+                         "왼쪽사이드 오른쪽사이드 오른쪽사이드 오른쪽사이드"
+}
+
+/*숙제*/
+.grid-container2{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: "메인사진 메인사진 ."
+                         "메인사진 메인사진 ."
+                         ". . .";
+}
+.grid-container2 img{
+    width: 100%;
+}
+
+.grid-main{
+    grid-area: 메인사진;
+}
+
+@media screen and (max-width:768px){
+    .grid-container{
+        grid-template-areas: "헤더"
+                             "왼쪽사이드"
+                             "오른쪽사이드";
+        grid-template-columns: 400px;
+        grid-template-rows: 400px 400px 400px;                                 
+    }
+    
+    .grid-container2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
